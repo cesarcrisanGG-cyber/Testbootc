@@ -1,0 +1,10 @@
+module meuendereco::hello_world {
+    use std::debug::print;
+    use std::string::utf8;
+
+    public fun say_hello() {
+        print(&utf8(b"Hello, Move!"));
+    }
+}
+
+
