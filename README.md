@@ -1,3 +1,4 @@
+
 # Testbootc
 
 Projeto desenvolvido durante atividades de bootcamp com foco na **linguagem Move**, utilizando a **edição 2024 (beta)** e conceitos fundamentais do ecossistema **Sui**.
@@ -28,16 +29,21 @@ Este repositório demonstra a estrutura básica de um pacote Move, configuraçã
 
 ## 📁 Estrutura do Projeto
 
-```text
 Testbootc/
 ├── Move.toml
 ├── sources/
-│   ├── hello_world.move
-│   └── hello.move
+│ ├── hello_world.move
+│ └── hello.move
 └── README.md
-⚙️ Configuração (Move.toml)
-toml
+
+yaml
 Copiar código
+
+---
+
+## ⚙️ Configuração (`Move.toml`)
+
+```toml
 [package]
 name = "test_bootc"
 edition = "2024.beta"
@@ -101,10 +107,14 @@ GitHub: https://github.com/cesarcrisanGG-cyber
 📝 Nota
 Este projeto faz parte do meu processo de aprendizado em Move e Sui durante um bootcamp. Projetos mais avançados, incluindo NFTs e deploys em rede, estão disponíveis em outros repositórios do meu GitHub.
 
-🚀 Comandos finais
-bash
+yaml
 Copiar código
+
+---
+
+### Comandos finais
+
+```bash
 git add README.md
 git commit -m "docs: add README"
 git push origin main
-
